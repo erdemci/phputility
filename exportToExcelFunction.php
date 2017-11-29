@@ -8,8 +8,7 @@ function exportExcel($filename='ExportExcel',$columns=array(),$data=array(),$rep
     echo "\xEF\xBB\xBF"; // UTF-8 BOM
       
     $say=count($columns);
-  
- // $html = file_get_html('https://hr.kocsistem.com.tr/');
+
   $url = "example";
 $cekilen_veri = file_get_contents($url);
 echo $cekilen_veri;
